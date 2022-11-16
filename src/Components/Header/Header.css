@@ -1,0 +1,76 @@
+header{
+    background-color: white;
+}
+
+.btn{
+    border: 1px solid black;
+    border-radius: 20px;
+}
+.dark .btn{
+    border: 1px solid white;
+    color: white;
+    border-radius: 20px;
+}
+.btn:hover{
+    border: 1px solid black;
+   }
+
+
+.searchbar{
+    border: 1px solid black;
+    border-radius: 20px;
+    padding-left: 20px;
+}
+
+.dark .searchbar{
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 20px;
+    padding-left: 20px;
+}
+
+.dark .x-btn{
+    color: black;
+    border: 1px solid black;
+    background-color: white;
+}
+.dark .btn-katalog{
+    color: black;
+    border: 1px solid black;
+    background-color: white;
+}
+.dark .nav-btn{
+    border: none;
+}
+
+.searchbar input{
+    border: 0;
+    outline: 0;
+}
+
+.badge-light{
+    background-color: white !important;
+    color: black !important;
+    margin-left: 10px;
+    border-radius: 20px;
+}
+
+
+.day-night-btn button{
+    margin-left: 0.5rem;
+}
+
+.dark {
+    background-color: black;
+}
+
+
+
+.dark.price {
+    background-color: black;
+}
+
+
+
+
+
