@@ -1,0 +1,122 @@
+*{
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #17161C;
+}
+
+.container{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.navbar{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+h3{
+    font-size: 1.5rem;
+    color: beige;
+}
+
+h3:hover{
+    color: sandybrown;
+}
+
+.navbar .nav a{
+    text-decoration: none;
+    color: white;
+    margin: 0 2rem;
+
+}
+
+.navbar .nav a:hover{
+    color: sandybrown;
+
+}
+
+
+.home{
+    width: 100%;
+    height: 9rem;
+    display: flex;
+    gap: 4rem;
+    margin: 0 auto;
+    justify-content: center;
+    margin-top: 2rem;
+    position: relative;
+}
+
+.home .img{;
+    width: 12rem;
+}
+.home .img img{
+    width: 12rem;
+    position: absolute;
+
+}
+
+.home .hometext{
+    margin-right: 2rem;
+}
+
+.home .hometext h3{
+    font-size: 3.5rem;
+    color: sandybrown;
+}
+
+.home .hometext p{
+    color: white;
+    font-size: 1.5rem;
+}
+
+.container .about{
+    background-color: #1F222F;
+    padding-bottom: 3rem;
+    padding-top: .1rem;
+}
+
+.container .about .main-about {
+    display: flex;
+    width: 900px;
+    border-radius: 1rem;
+    margin: 0 auto;
+    margin-top: 10rem;
+    padding: 2rem;
+}
+
+.container .about .main-about .words{
+    width: 49.5%;
+}
+
+.container .about .main-about .words h3{
+    font-size: 2.5rem;
+}
+
+.container .about .main-about .words p{
+    font-size: 1.7rem;
+    padding-right: 7rem;
+    color: white;
+}
+.container .about .main-about .words h5{
+    margin-top: 1rem;
+    font-size: 2rem;
+    color: white;
+}
+
+.container .about .main-about .words button{
+    margin: 0 .3rem;
+    font-size: 1.2rem;
+    margin-top: 1.2rem;
+    padding: .5rem;
+    background-color: transparent;
+    border: 1px solid #FE805D;
+    border-radius: 2rem;
+    color: #FE805D;
+}
+
